@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: #d2d2da;
+}
+
+h1 {
+  margin: 0 auto;
+  padding: 1em;
+  font-weight: 900;
+  text-align: center;
+  border-bottom: 5px solid black;
+  width: 45%;
+  font-size: 2.5em;
+}
+/* -------------------------------- */
+/*------ LAYOUT------- */
+/* -------------------------------- */
+
+.container {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5em auto;
+}
+
+/* -------------------------------- */
+/*------ Form Styling------- */
+/* -------------------------------- */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+form input {
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 1em;
+  width: 80%;
+  margin-bottom: 1em;
+}
+
+form label {
+  padding: 1em 0;
+}
+
+.btn-wrap {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.btn-wrap-reset {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.btn {
+  background: red;
+  color: white;
+  margin: 1em 0;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  outline-style: none;
+  font-size: 1.25rem;
+  border: 2px solid black;
+  font-family: inherit;
+}
+
+.btn-reset {
+  display: none;
+}
+
+.event_message {
+  display: none;
+  background: black;
+  border-radius: 5px;
+  background: whitesmoke;
+  text-align: center;
+  border: 2px solid black;
+  padding: 1em;
+  font-weight: 900;
+  font-size: 1.25em;
+}
+
+/* -------------------------------- */
+/*------ Clock Styling------- */
+/* -------------------------------- */
+
+.clock_wrap {
+  display: flex;
+  width: 70%;
+  border: 2px solid black;
+  background: #a06636;
+  border-radius: 25px;
+  margin-top: 2em;
+  box-shadow: 15px 15px 15px grey;
+}
+
+.clock_slot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 250px;
+  padding-top: 20px;
+}
+
+.clock_slot p {
+  color: #fff;
+}
+
+.clock_window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: black;
+  min-height: 50%;
+  width: 60%;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: rotate(-5deg);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.clock-wiggle {
+  animation: wiggle 1.5s infinite;
+}

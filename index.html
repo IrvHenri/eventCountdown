@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Event Countdown</h1>
+    <div class="container">
+      <!----------------Form---------->
+      <form id="form" action="#" onsubmit="return false">
+        <label for="event">Event:</label>
+        <input
+          type="text"
+          id="event-name"
+          aria-label="event name"
+          placeholder="Event Name"
+          required
+        />
+        <label for="date">Date:</label>
+        <input
+          type="datetime-local"
+          id="to-date"
+          aria-label="local date and time"
+          required
+        />
+        <div class="btn-wrap">
+          <button class="btn" id="startBtn" type="submit">Start</button>
+
+          <button class="btn btn-reset" id="resetBtn" type="reset">
+            Reset
+          </button>
+        </div>
+      </form>
+      <!--end of form-->
+
+      <p class="event_message" id="message-box">
+        <span id="message"></span> starts in:
+      </p>
+
+      <!------Clock------->
+      <div id="clockWrapper" class="clock_wrap">
+        <div class="clock_slot">
+          <div class="clock_window" id="days"></div>
+          <p>Days</p>
+        </div>
+
+        <div class="clock_slot">
+          <div class="clock_window" id="hours"></div>
+          <p>Hours</p>
+        </div>
+        <div class="clock_slot">
+          <div class="clock_window" id="minutes"></div>
+          <p>Minutes</p>
+        </div>
+        <div class="clock_slot">
+          <div class="clock_window" id="seconds"></div>
+          <p>Seconds</p>
+        </div>
+      </div>
+      <!------Clock--End----->
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
