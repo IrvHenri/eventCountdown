@@ -8,7 +8,7 @@ An event countdown application where the user can enter an event name and select
 
 ## Motivation
 
-I built it to further practice my DOM manipulation with event listeners
+I built it to practice my DOM manipulation with event listeners and getting user input values and assigning them to variables to perform functions.
 
 ## Tech/framework used
 - HTML
