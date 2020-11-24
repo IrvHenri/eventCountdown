@@ -10,7 +10,7 @@ A countdown application where the user can enter an event name and select a date
 
 I built it to practice interactivity with forms so that it could perform functions, add animation and display personalized messages.
 
-## Tech/framework used
+## Tech Stack
 - HTML
 - CSS
 - JavaScript
