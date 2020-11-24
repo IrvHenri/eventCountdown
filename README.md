@@ -1,6 +1,6 @@
 # Portfolio: Event Countdown
 
-A countdown application where the user can enter an event name and select a date/time. Once started, a countdown timer begins and the user recieves a personalized message.
+An application where the user can start a countdown after selecting a date and time.
 
 ## Demo
 ![eventCountdown](https://user-images.githubusercontent.com/69181038/99696794-16eeb580-2a5d-11eb-9f33-e908619d74ae.PNG)
@@ -9,7 +9,8 @@ A countdown application where the user can enter an event name and select a date
 
 ## Motivation
 
-I built it to practice interactivity with forms so that it could perform functions, add animation and display personalized messages.
+I built it to strengthen my understanding of forms and interactivity so that it could perform functions, add animation and display personalized messages.
+
 
 ## Tech Stack
 - HTML
