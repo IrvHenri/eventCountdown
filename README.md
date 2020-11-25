@@ -1,6 +1,6 @@
 # Portfolio: Event Countdown
 
-An application where the user can enter an event name and  start a countdown after selecting a date and time.
+An application where the user can start a countdown after selecting a date and time.
 
 ## Demo
 ![eventCountdown](https://user-images.githubusercontent.com/69181038/99696794-16eeb580-2a5d-11eb-9f33-e908619d74ae.PNG)
