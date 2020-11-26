@@ -13,7 +13,7 @@ An application where the user can start a countdown after selecting a date and t
 
 ## Motivation
 
-I built it to strengthen my understanding of forms and interactivity so that it could perform functions, add animation and display personalized messages.
+I built it to strengthen my understanding of forms and interactivity so that it could perform functions, add animation effects and display personalized messages.
 
 
 ## Tech Stack
