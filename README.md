@@ -1,4 +1,4 @@
-# Portfolio: Event Countdown
+# Event Countdown
 
 An application where the user can start a countdown after selecting a date and time.
 
